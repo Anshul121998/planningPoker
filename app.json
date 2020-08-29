@@ -1,0 +1,27 @@
+
+{
+  "name": "Major Project App",
+  "description": "",
+  "repository": "https://github.com/Anshul121998/Major-proj-repo",
+  "keywords": ["flask", "vue"],
+  "env": {
+    "FLASK_ENV": {
+      "description": "Flask Enviroment",
+      "value": "production"
+    },
+    "SECRET": {
+      "description": "Flask Secret Key",
+      "value": "iamapassword"
+    }
+   },
+  "addons": [
+   ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
