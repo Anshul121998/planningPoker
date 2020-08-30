@@ -17,7 +17,7 @@ def room_creator(json_data):
             'topEstimateNumber' : -1
         }
         return {
-            'uuid' : my_uuid,
+            'uuid' : my_uuid,d
             'polling' : False
         }
     else:
