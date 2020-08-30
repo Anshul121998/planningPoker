@@ -53,10 +53,10 @@
                 ></v-select>
               </v-form>
             </v-card-text>
-            <v-card-action>
+            <v-card-actions>
               <v-spacer></v-spacer>
               <v-btn color="primary" :disabled="allOkay" @click="sendParticipantData()" class="mb-2 ml-12">Send</v-btn>
-            </v-card-action>
+            </v-card-actions>
           </v-card>
         </v-col>
       </v-row>

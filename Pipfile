@@ -5,9 +5,7 @@ name = "pypi"
 
 [packages]
 gunicorn = "==19.7.1"
-numpy = "*"
-pandas = "*"
-matplotlib = "*"
+uuid = "*"
 flask-restplus = "*"
 python-dotenv = "*"
 flask = "*"

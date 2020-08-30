@@ -49,10 +49,10 @@
                   ></v-text-field>
                 </v-form>
               </v-card-text>
-              <v-card-action>
+              <v-card-actions>
                 <v-spacer></v-spacer>
                 <v-btn color="primary" :disabled="allOkay" @click="sendCreatorData()" class="mb-2 mt-2 md-4 ml-12">Create/Enter Room</v-btn>
-              </v-card-action>
+              </v-card-actions>
             </v-card>
           </v-col>
         </v-row>
@@ -89,14 +89,9 @@
       </div>
       <div v-if="tableData">
         <br />
-        <h2
-          class="deep-purple darken-3"
-          style="color: white padding-left: 5px padding-right: 5px"
-        >
+        <h2 class="deep-purple darken-3" style="color: white; padding-left: 5px padding-right: 5px">
           <center>
-            '{{ estimatorSelected }}' please tell why you gave '{{
-              estimateSelected
-            }}' as estimate
+            '{{ estimatorSelected }}' please tell why you gave '{{ estimateSelected }}' as estimate
           </center>
         </h2>
         <br />
@@ -212,7 +207,7 @@ export default {
       dummy.value = this.permanentRoomID
       dummy.select()
       document.execCommand('copy')
-      document.removeChild(dummy)
+      document.body.removeChild(dummy)
       this.alertColor = 'success'
       this.alertText = 'Room ID copied successfully.'
       this.snackbar = true
