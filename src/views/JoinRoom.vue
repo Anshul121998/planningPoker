@@ -108,16 +108,15 @@ export default {
       'Infinity'
     ],
     estimateExplaination: {
-      '0': 'Write selected estimation meaning here',
-      '0.5': 'Write selected estimation meaning here',
-      '1': 'Write selected estimation meaning here',
-      '2': 'Write selected estimation meaning here',
-      '3': 'Write selected estimation meaning here',
-      '5': 'Write selected estimation meaning here',
-      '8': 'Write selected estimation meaning here',
-      '13': 'Write selected estimation meaning here',
-      '21': 'Write selected estimation meaning here',
-      Infinity: 'Write selected estimation meaning here'
+      '0': 'Meaning: This does not qualify as a user story for us, please check.',
+      '1': 'Meaning: Almost no effort, can be done in a matter of few hours.',
+      '2': 'Meaning: Path to solve the problem is clear, can be completed by 1/8th of sprint.',
+      '3': 'Meaning: Path to solve the problem is clear, can be completed by quarter of the sprint.',
+      '5': 'Meaning: Path to solve the problem is clear, can be completed by mid sprint.',
+      '8': 'Meaning: Path to solve the problem is not clear, quite complex. Worst case, might end up consuming whole sprint.',
+      '13': 'Meaning: Path to solve the problem is unknown. Hard to complete during a sprint, might spill over. Try breaking this into smaller User stories and indentify blockers.',
+      '21': 'Meaning: Problem too big, need to break this one to proceed.',
+      'Infinity': 'Meaning: No idea, please explain again...'
     },
     isLoading: false,
     estimateHelp: '',
