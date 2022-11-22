@@ -19,7 +19,7 @@
     "@mdi/font": "^5.5.55",
     "@vue/cli-plugin-babel": "^3.0.0-beta.6",
     "@vue/cli-plugin-eslint": "^3.0.0-beta.6",
-    "@vue/cli-service": "^3.0.0-beta.6",
+    "@vue/cli-service": "^5.0.8",
     "@vue/eslint-config-standard": "^3.0.0-beta.6",
     "lint-staged": "^6.0.0",
     "node-sass": "^4.7.2",
